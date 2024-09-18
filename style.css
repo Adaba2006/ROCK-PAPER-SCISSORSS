@@ -1,0 +1,67 @@
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+The CSS should be relatively easy to understand 
+*/
+
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* To increse the ize of the title(i know you already know that) */
+h1{
+    font-size: 45px;
+}
+
+input{
+    width: 75px;
+    height: 50px;
+    font-size: 45px;
+    border-radius: 10px;
+    margin: 10px;
+    color: #000;
+    background-color: #4c555c;
+}
+
+input:hover{
+    background-color: #252c2b;
+}
+
+
+/* To increase the size of the first input field (this is the field that will display the results and the numbers for calaculating)
+note: i named it "first" cause its the first input in the html
+*/
+.first{
+    width: 370px;
+    height: 70px;
+    background-color: #4c555c;
+}
+
+
+/* This contains the entire calculator except the title
+note: im to lazy to properly figure out the styling for it (but at least you wont be disappointed when you see the final work)
+*/
+div{
+    border-radius:10px ;
+    background: #3a4452;
+    padding: 20px;
+    text-align: center;
+    margin-left: 360px;
+    margin-right: 360px;
+
+}
+
+/* 
+PS:The screen does not adjust to reduction in screen size
+*/
+
+/* 
+GOOD LUCK
+*/
