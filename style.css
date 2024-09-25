@@ -11,14 +11,11 @@ body{
 }
 
 @font-face{
-    font-family: 'Poppins';
+    font-family: 'Jost';
     src: url("fonts/Poppins-Bold.woff");
 }
 
-@font-face{
-    font-family: 'Jarcquarda';
-    src: url("fonts/JacquardaBastarda9-Regular.woff");
-}
+
 
 .external-body{
     display: flex;
