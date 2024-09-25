@@ -17,6 +17,16 @@ body{
 
 
 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.jost-<uniquifier> {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 .external-body{
     display: flex;
     justify-content: space-evenly;
@@ -247,7 +257,7 @@ button:hover{
     background: #000000;
     color: rgba(255, 255, 255, 0.648);
     font-size: 4.5rem;
-    font-family: 'Jarcquarda';
+    font-family: 'Jost', 'Jarcquarda';
     padding: 10px;
 }
 
